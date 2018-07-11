@@ -217,6 +217,8 @@ Host encryption configuration will be set to match agent configuration.
 
 * `zabbix_create_host`: present (Default) if the host needs to be created or absent is you want to delete it. This only works when `zabbix_api_create_hosts` is set to `True`.
 
+* `zabbix_update_host`: yes (Default) if the host should be updated if already present. This only works when `zabbix_api_create_hosts` is set to `True`.
+
 * `zabbix_useuip`: 1 if connection to zabbix-agent is made via ip, 0 for fqdn.
 
 * `zabbix_host_groups`: An list of hostgroups which this host belongs to.
